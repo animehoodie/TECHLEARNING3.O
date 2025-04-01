@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite Scrolling Horizontal Gallery</title>
+  <link rel="stylesheet" href="galley.css">
+</head>
+<body>
+
+  <!-- Gallery Buttons to switch between 6 galleries -->
+  <div class="gallery-controls">
+    <button onclick="switchGallery(0)">Gallery 1</button>
+    <button onclick="switchGallery(1)">Gallery 2</button>
+    <button onclick="switchGallery(2)">Gallery 3</button>
+    <button onclick="switchGallery(3)">Gallery 4</button>
+    <button onclick="switchGallery(4)">Gallery 5</button>
+    <button onclick="switchGallery(5)">Gallery 6</button>
+  </div>
+
+  <!-- Gallery Container -->
+  <div id="gallery-container" class="gallery-container">
+    <!-- The galleries will be loaded dynamically here -->
+  </div>
+
+  <script src="galley.js"></script>
+</body>
+</html>

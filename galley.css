@@ -1,0 +1,28 @@
+.marquee {
+  display: none;
+  font-size: 24px;
+  color: #fff;
+  background-color: #333;
+  
+  height: 450;
+}
+.button-container button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Keyframe for scrolling effect */
+@keyframes marquee {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+/* Hover effect on marquee to stop it */
+.marquee-container:hover .marquee {
+  animation-play-state: paused;
+}
