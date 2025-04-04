@@ -67,6 +67,7 @@ body {
   color:white;
   padding: 4rem 5%;
   text-align: center;
+  position: relative;
 }
 
 .footer-content{
